@@ -1,7 +1,7 @@
 class Post < ActiveRecord::Base
 
 #Attributes
-	attr_accessible :title :content :published_at
+	attr_accessible :title,:content, :user_id
 
 #Relations
 	belongs_to :user

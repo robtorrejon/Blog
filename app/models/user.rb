@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
 
 #Attributes
-	attr_accessible :email :name
+	attr_accessible :email, :name
 
 #Relations
 	has_many :posts
